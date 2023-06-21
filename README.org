@@ -1,0 +1,7 @@
+#+TITLE: fwd
+
+* =fwd=
+Flake Watching Daemon.
+
+It's very simple, it literally just calls ~nix flake show~ on your full registry
+on a loop to ensure your eval and fetcher caches are always warm.
